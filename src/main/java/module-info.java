@@ -3,6 +3,6 @@ module org.example.studentmanager_fis {
     requires javafx.fxml;
 
 
-    opens org.example.studentmanager_fis to javafx.fxml;
-    exports org.example.studentmanager_fis;
+    opens loose.oose.fis.lab.student.manager to javafx.fxml;
+    exports loose.oose.fis.lab.student.manager;
 }
